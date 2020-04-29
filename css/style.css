@@ -1,0 +1,180 @@
+@font-face{
+	src : url('../fonts/Montserrat-Bold.ttf');
+	font-family: Montserrat-Bold;
+}
+
+@font-face{
+	src : url('../fonts/Montserrat-SemiBold.ttf');
+	font-family: Montserrat-SemiBold;
+}
+
+@font-face{
+	src : url('../fonts/Montserrat-Regular.ttf');
+	font-family: Montserrat-Regular;
+}
+
+@font-face{
+	src : url('../fonts/Montserrat-Medium.ttf');
+	font-family: Montserrat-Medium;
+}
+
+body{
+	font-family:Montserrat-Regular;
+	}
+.logo{
+	height: 80px;
+	width: 540px;
+}
+li{
+	list-style:none
+}
+h1{
+	font-family: Montserrat-Bold;
+}
+h2{
+	font-family: Montserrat-Regular;
+}
+h3{
+	font-family: Montserrat-SemiBold;
+}
+p{
+	font-family: Montserrat-Medium;
+}
+.image-1{
+	background-image:url("../images/bg.jpg");
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-position:center center;
+}
+	
+.image-1 .blr {
+	background-color: rgba(0, 0, 0, .4);
+	height: 100%;
+	width: 100%;
+}
+
+.image-2{
+	background-image:url("../images/bg-2.jpg");
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-position:center center;
+}
+.image-2 .blr {
+	background-color: rgba(0, 0, 0, .5);
+	height: 100%;
+	width: 100%;
+}
+
+.image-3{
+	background-image:url("../images/shutter.jpg");
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-position:center center;
+}
+	
+.image-3 .blr {
+	background: rgba(194, 196, 198, 0.2);
+	height: 100%;
+	width: 100%;
+}
+
+.service-box a{
+	line-height: 50px;
+	font-size: 50px;
+	display: table;
+	color: #FFF;
+	padding: 20px;
+}
+		
+.icon{
+	height: 63px;
+	width: 72px;
+}
+
+.menu{
+	font-size:30px;
+	margin-top:20%;
+	color:#fff;	
+}
+
+
+
+.menu li a{
+	font-family: Montserrat-SemiBold;
+}
+
+
+.mid{
+	padding:10px;
+}
+
+.footer{
+	padding:10px;
+	font-family: Montserrat-Medium;
+	color: #000;
+}
+
+.btn1 {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.btn1:hover, .btn1:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first:hover {
+  box-shadow: 0 0 40px 40px #e74c3c inset;
+}
+
+.second {
+  border-radius: 3em;
+  border-color: #1abc9c;
+  color: #fff;
+  background-image: linear-gradient(to right, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%, #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%, #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%, rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%, rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%, #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%, rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%, rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%, #1abc9c 95%, #1abc9c 100%);
+  background-position: 0 0;
+  background-size: 100%;
+  transition: background 300ms ease-in-out;
+}
+.second:hover {
+  background-position: 100px;
+}
+
+.third {
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
+}
+.third:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+@media screen and (max-width: 600px) {
+  .logo{
+	height: 60px;
+	width: 100%;
+	}
+}
